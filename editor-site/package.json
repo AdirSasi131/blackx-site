@@ -1,0 +1,15 @@
+{
+  "name": "editor-client-site",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Video editor & thumbnail designer website with client intake and private owner dashboard",
+  "type": "module",
+  "engines": { "node": ">=22.13" },
+  "scripts": {
+    "start": "node --no-warnings server.js",
+    "dev": "node --no-warnings --watch server.js",
+    "test": "node --no-warnings --test tests/*.test.js",
+    "create-owner": "node --no-warnings scripts/create-owner.js",
+    "backup": "node --no-warnings scripts/backup.js"
+  }
+}
