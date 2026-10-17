@@ -1,4 +1,5 @@
-html { overflow-x: hidden; }
+html { overflow-x: hidden; overflow-x: clip; }
+body { overflow-x: hidden; overflow-x: clip; max-width: 100%; position: relative; }
 /* ------------------------------------------------------------------
    Premium creative-studio theme. Near-black, off-white, one accent.
    Font: SF Pro Display when installed (Apple devices), otherwise a close system stack.
